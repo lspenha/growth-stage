@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# GrowthStage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto em React
 
-## Available Scripts
+## 🔨 Funcionalidades do projeto
 
-In the project directory, you can run:
+Neste projeto, foi elaborado o componente "GrowthStage" utilizando as tecnologias
+React, TypeScript e Chart.js. O objetivo é mostrar os dados obtidos de uma API em um gráfico
+de crescimento.
 
-### `npm start`
+## ✔️ Técnicas e tecnologias utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `React`: O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+- `typescript`: TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.
+- `chart.js`: Chart.js é uma biblioteca JavaScript gratuita e de código aberto para visualização de dados, que oferece suporte a oito tipos de gráficos: barra, linha, área, pizza, bolha, radar, polar e dispersão.
+- `tailwindcss`: O Tailwind CSS é uma estrutura CSS, para a criação rápida de sites modernos sem sair do HTML.
+- `axios`: Axios é um cliente HTTP baseado-em-promessas para o node.js e para o navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🐙 Clonando o projeto
 
-### `npm test`
+Para ter acesso aos arquivos do projeto você pode clonar usando o seguinte comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/lspenha/growth-stage
+```
 
-### `npm run build`
+### ▶️ Rodando o Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Agora que já tem a pasta do projeto na sua máquina, dentro dela instale as dependências:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Então podemos rodar o projeto:
 
-### `npm run eject`
+```
+npm run start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Saber mais
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Você pode aprender mais no [Create React App Documentação](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para aprender React, confira o [Documentação do React](https://reactjs.org/).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is a challenge by FieldPRO.

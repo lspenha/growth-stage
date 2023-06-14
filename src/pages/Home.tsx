@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { format } from "date-fns";
+
+import { ChartComponent, ChartSubtitle } from "../components/Chart";
+
+import { api } from "../services/api";
+
 import {
   ChartResponse,
   ChartResponseFormat,
   ChartSubtitleValues
 } from "../utils/interfaces/chart";
-import { ChartComponent, ChartSubtitle } from "../components/Chart";
-import { api } from "../services/api";
 
 function Home() {
   const [chartResponse, setChartResponse] = useState<ChartResponseFormat>();
-
   const [chartSubtitleResponse, setChartSubtitleResponse] =
     useState<ChartSubtitleValues>();
 
